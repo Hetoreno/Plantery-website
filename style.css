@@ -134,6 +134,7 @@ ul a{
 }
 
 .about-pic img{
+    
     width:100%;
     height: 100%;
 }
@@ -163,12 +164,13 @@ ul a{
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    margin:auto;
     color:white;
+    margin-top: 2rem;
+ 
 }
 
 .about-pictwo{
-    width:40%;
+    width:50%;
     background: red;
 }
 
@@ -177,29 +179,147 @@ ul a{
     height:100%;
 }
 
-.card-one{
+.card-light{
     width: 100%;
     background: #3D3D3D;
     text-align: center;
 }
 
-.card-two{
+.card-dark{
     width: 100%;
     background: #2D2A2A;
     text-align: center;
 }
 
 .card-img img{
-    width:10%;
+    width:8%;
+    margin:0.5rem;
 }
 
 .grid{
     display: flex;
     flex-wrap: wrap;
-    width:60%;
+    width:50%;
+}
+
+.card-container h4{
+    font-size:4rem;
 }
 /*Card End*/
 
+
+
+/*Community Start
+#community{
+    background:#F1F1F1;
+}
+
+.post{
+
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.card{
+    background: white;
+    text-align:center;
+    min-width: 50vh;
+    margin:2rem 5rem;
+    flex: 1 1 70rem;
+}
+
+.card img{
+    width:50%;
+    height:100%;
+}
+
+.card-image{
+    min-height: 20vh;
+}
+
+.card-imageee img{
+    justify-content: center;
+    align-items: center;
+    width:44.5%;
+}
+*/
+
+/*Ending banner*/
+.ending{
+    background: linear-gradient(rgba(0,0,0,0.5), transparent) , url(./Images/sing\ up\ page.jpeg);
+    min-height:40vh;
+    color:white;
+    position: relative;
+}
+.move{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:15%;
+    right:35%;
+}
+
+.ending h3{
+    font-size:4rem;
+}
+
+
+
+.ending button{
+    position: relative;
+    left: 30%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 2.5rem;
+    border-radius:30px;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    border: none;
+    background: #8FB339;
+    color:white;
+}
+/*End of the banner*/
+
+/*Footer*/
+footer{
+    background:#4B5842;
+    min-height:15vh;
+    color:white;
+}
+
+footer img{
+    width:3rem;
+    
+}
+
+footer a{
+    margin: 1rem;
+    padding: 0rem;
+}
+
+footer h3{
+    font-size: large;
+}
+
+footer p{
+    font-size: 3rem;
+}
+
+.footer-wrap{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+width:90%;
+margin:auto;
+}
 
 
 /* Tablet Start */
@@ -262,6 +382,12 @@ ul a{
         text-align: center;
     }
 
+    .card-img img{
+        width:15%;
+    }
+
+
+
 }
 
 /* Tablet End*/
@@ -269,6 +395,19 @@ ul a{
 @media screen and (max-width:500px){
     html{
         font-size: 45%;
+    }
+
+    ul a{
+    
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     #about{
@@ -324,7 +463,10 @@ ul a{
     text-align: center;
 }
 
-
+.card-img img{
+    width:12%;
+    padding-top: 1rem;
+}
     
 }
 /* Mobile End */
