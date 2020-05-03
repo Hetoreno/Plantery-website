@@ -321,6 +321,19 @@ width:90%;
 margin:auto;
 }
 
+/*Form Start*/
+.form-up{
+    min-height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), transparent) , url(./Images/explore\ section\ with\ search.jpeg);
+    background: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.form{
+    color: white;
+}
+/*Form End*/
 
 /* Tablet Start */
 @media screen and (max-width:1024px) and (min-width:501px){
