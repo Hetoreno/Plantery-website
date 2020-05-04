@@ -20,9 +20,9 @@
                 </div>
     
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#">Explore</a></li>
-                    <li><a href="#community">Community</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Info</a></li>
+                  <!--  <li><a href="#community">Community</a></li> The card section that needs to be done-->
                     <button class="sign-up"><a href="sign-up.html">Sign up</a></button>
                 </ul>
             </nav>
@@ -31,13 +31,45 @@
             <hr>
             
             <section class="form">
-                <h1>Create Account</h1>
-                <form action="">
-                    <label for="email">Email: </label> <input type="email">
-                    <label for="password">Password: </label> <input type="password">
-                    <label for="password">Re-enter Password: </label> <input type="password">
-                    <label for="username">Username: </label> <input type="text">
-                </form>
+                <div class="form-container">
+                    <div class="form-header">
+                    <h1>Create Account</h1>
+                    </div>
+
+                    <hr>
+                        
+                        <form action="">
+                            <div class="wrap">
+
+                                <div class="e-form">
+                                    <label for="email">Email: </label> 
+                                    <input id="email" type="email" name="email" required>
+                                </div>
+
+                                <div class="p-form">
+                                    <label for="password">Password: </label> 
+                                    <input id="password" type="password" name="password" required>
+                                </div>
+
+                                <div class="re-form">
+                                    <label for="password">Re-enter Password: </label>
+                                    <input id="required" type="password" name="re-enter" required>
+                                </div>
+                                
+                                <div class="u-form">
+                                    <label for="username">Username: </label>
+                                    <input id="username" type="text" name="username" required>
+                                </div>
+                            
+                            </div>
+
+                            <button value="send" type="submit">Submit</button>
+
+                            <div class="member">
+                            <a  href="#">Already a member?</a>
+                            </div>
+                        </form>
+                </div>
             </section>
     </section>
 
